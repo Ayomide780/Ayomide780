@@ -1,0 +1,49 @@
+/* styles.css */
+
+.container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.interactions, .widgets, .effects {
+  width: 30%;
+  padding: 20px;
+  margin: 10px;
+  border: 1px solid #ccc;
+  
+  #slider {
+  background-color: #000; /* Set the background color to black */
+}
+}
+
+.draggable-box, .droppable-box, .selectable-list li {
+  margin: 10px 0;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+}
+
+.droppable-box {
+  border: 2px dashed #ccc;
+}
+
+.resizable-box {
+  width: 200px;
+  height: 150px;
+  background-color: #f0f0f0;
+  border: 2px solid #007bff;
+  padding: 10px;
+  resize: both;
+  overflow: auto;
+}
+
+.effect-element {
+  width: 100px;
+  height: 100px;
+  background-color: #007bff;
+  margin-top: 10px;
+  text-align: center;
+  line-height: 100px;
+  color: #fff;
+}

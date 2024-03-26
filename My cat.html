@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>jQuery UI Components</title>
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <div class="interactions">
+      <h2>Interactions</h2>
+      <div class="draggable-box">Drag me</div>
+      <div class="droppable-box">Drop here</div>
+      <div class="resizable-box">Resize me</div>
+      <ul class="selectable-list">
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+        <li>Item 4</li>
+      </ul>
+    </div>
+
+    <div class="widgets">
+      <h2>Widgets</h2>
+      <div id="accordion">
+        <h3>Section 1</h3>
+        <div>
+          <p>This is section 1 content.</p>
+        </div>
+        <h3>Section 2</h3>
+        <div>
+          <p>This is section 2 content.</p>
+        </div>
+      </div>
+      <input type="text" id="autocomplete" placeholder="Autocomplete">
+      <input type="text" id="datepicker" placeholder="Datepicker">
+      <div id="slider"></div>
+    </div>
+
+    <div class="effects">
+      <h2>Effects</h2>
+      <button id="showHide">Show/Hide</button>
+      <div id="elementToShowHide" class="effect-element">Toggle me</div>
+      <button id="explode">Explode</button>
+      <div id="elementToExplode" class="effect-element">Explode me</div>
+      <button id="fadeInOut">Fade In/Out</button>
+      <div id="elementToFadeInOut" class="effect-element">Fade me</div>
+      <button id="colorAnimate">Color Animation</button>
+      <div id="elementToAnimate" class="effect-element">Animate me</div>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
