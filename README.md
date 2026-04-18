@@ -1,2 +1,2 @@
 - 👋 Hi
-- I’m Ayomide, Founder of Pingoni.
+- I’m Ayomide, founder of Pingoni
